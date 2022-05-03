@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/chenyiting/Documents/GitHub/CppProj/KnapSack/cmake-build-debug"
+			"value" : "/Users/chenyiting/Documents/GitHub/CppProj/Sorting/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/chenyiting/Documents/GitHub/CppProj/KnapSack"
+			"value" : "/Users/chenyiting/Documents/GitHub/CppProj/Sorting"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -795,7 +795,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "untitled"
+			"value" : "Sorting"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1078,7 +1078,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "untitled_BINARY_DIR",
+			"name" : "Sorting_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1087,10 +1087,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/chenyiting/Documents/GitHub/CppProj/KnapSack/cmake-build-debug"
+			"value" : "/Users/chenyiting/Documents/GitHub/CppProj/Sorting/cmake-build-debug"
 		},
 		{
-			"name" : "untitled_IS_TOP_LEVEL",
+			"name" : "Sorting_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1102,7 +1102,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "untitled_SOURCE_DIR",
+			"name" : "Sorting_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/chenyiting/Documents/GitHub/CppProj/KnapSack"
+			"value" : "/Users/chenyiting/Documents/GitHub/CppProj/Sorting"
 		}
 	],
 	"kind" : "cache",

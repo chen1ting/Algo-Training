@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: untitled
+# Project: Sorting
 # Configurations: Debug
 # =============================================================================
 
@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/chenyiting/Documents/GitHub/CppProj/KnapSack/cmake-build-debug/
+cmake_ninja_workdir = /Users/chenyiting/Documents/GitHub/CppProj/Sorting/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/chenyiting/Documents/GitHub/CppProj/KnapSack/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/chenyiting/Documents/GitHub/CppProj/KnapSack -B/Users/chenyiting/Documents/GitHub/CppProj/KnapSack/cmake-build-debug
+  COMMAND = cd /Users/chenyiting/Documents/GitHub/CppProj/Sorting/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/chenyiting/Documents/GitHub/CppProj/Sorting -B/Users/chenyiting/Documents/GitHub/CppProj/Sorting/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -57,45 +57,45 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/chenyiting/Documents/GitHub/CppProj/KnapSack/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/chenyiting/Documents/GitHub/CppProj/Sorting/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled
+# Object build statements for EXECUTABLE target Sorting
 
 
 #############################################
-# Order-only phony target for untitled
+# Order-only phony target for Sorting
 
-build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
+build cmake_object_order_depends_target_Sorting: phony || CMakeFiles/Sorting.dir
 
-build CMakeFiles/untitled.dir/main.cpp.o: CXX_COMPILER__untitled_Debug /Users/chenyiting/Documents/GitHub/CppProj/KnapSack/main.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles/untitled.dir/main.cpp.o.d
+build CMakeFiles/Sorting.dir/main.cpp.o: CXX_COMPILER__Sorting_Debug /Users/chenyiting/Documents/GitHub/CppProj/Sorting/main.cpp || cmake_object_order_depends_target_Sorting
+  DEP_FILE = CMakeFiles/Sorting.dir/main.cpp.o.d
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
-  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/
-  TARGET_PDB = untitled.pdb
+  OBJECT_DIR = CMakeFiles/Sorting.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sorting.dir
+  TARGET_COMPILE_PDB = CMakeFiles/Sorting.dir/
+  TARGET_PDB = Sorting.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled
+# Link build statements for EXECUTABLE target Sorting
 
 
 #############################################
-# Link the executable untitled
+# Link the executable Sorting
 
-build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.o
+build Sorting: CXX_EXECUTABLE_LINKER__Sorting_Debug CMakeFiles/Sorting.dir/main.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_DIR = CMakeFiles/Sorting.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/
-  TARGET_FILE = untitled
-  TARGET_PDB = untitled.pdb
+  TARGET_COMPILE_PDB = CMakeFiles/Sorting.dir/
+  TARGET_FILE = Sorting
+  TARGET_PDB = Sorting.pdb
 
 # =============================================================================
 # Target aliases.
@@ -106,9 +106,9 @@ build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/ma
 # =============================================================================
 
 #############################################
-# Folder: /Users/chenyiting/Documents/GitHub/CppProj/KnapSack/cmake-build-debug
+# Folder: /Users/chenyiting/Documents/GitHub/CppProj/Sorting/cmake-build-debug
 
-build all: phony untitled
+build all: phony Sorting
 
 # =============================================================================
 # Built-in targets

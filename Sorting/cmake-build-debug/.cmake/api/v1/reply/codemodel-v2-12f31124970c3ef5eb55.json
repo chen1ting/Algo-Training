@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "untitled",
+					"name" : "Sorting",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "untitled::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled-Debug-8503d4e0b4a2fe5e53bd.json",
-					"name" : "untitled",
+					"id" : "Sorting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sorting-Debug-3527754a2b7eb47ef67c.json",
+					"name" : "Sorting",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/chenyiting/Documents/GitHub/CppProj/KnapSack/cmake-build-debug",
-		"source" : "/Users/chenyiting/Documents/GitHub/CppProj/KnapSack"
+		"build" : "/Users/chenyiting/Documents/GitHub/CppProj/Sorting/cmake-build-debug",
+		"source" : "/Users/chenyiting/Documents/GitHub/CppProj/Sorting"
 	},
 	"version" : 
 	{
