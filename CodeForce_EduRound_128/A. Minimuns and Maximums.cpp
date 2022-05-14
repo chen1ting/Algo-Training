@@ -19,6 +19,7 @@ Each test case consists of one line containing four integers 𝑙1, 𝑟1, 𝑙2
 Output
 For each test case, print one integer — the minimum possible number of elements in a beautiful array.
  */
+
 int min_num(int l1, int r1, int l2, int r2){
     if(r1 < l2 || r2 < l1)
         return l1 + l2;

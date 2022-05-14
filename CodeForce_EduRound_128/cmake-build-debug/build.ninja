@@ -41,41 +41,97 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/chenyiting/Documents/GitHub/CppProj/CodeForce_EduRound_128/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target CodeForce_EduRound_128
+# Object build statements for EXECUTABLE target QA
 
 
 #############################################
-# Order-only phony target for CodeForce_EduRound_128
+# Order-only phony target for QA
 
-build cmake_object_order_depends_target_CodeForce_EduRound_128: phony || CMakeFiles/CodeForce_EduRound_128.dir
+build cmake_object_order_depends_target_QA: phony || CMakeFiles/QA.dir
 
-build CMakeFiles/CodeForce_EduRound_128.dir/A.minimuns_and_maximums.cpp.o: CXX_COMPILER__CodeForce_EduRound_128_Debug /Users/chenyiting/Documents/GitHub/CppProj/CodeForce_EduRound_128/A.minimuns$ and$ maximums.cpp || cmake_object_order_depends_target_CodeForce_EduRound_128
-  DEP_FILE = CMakeFiles/CodeForce_EduRound_128.dir/A.minimuns_and_maximums.cpp.o.d
+build CMakeFiles/QA.dir/A._Minimuns_and_Maximums.cpp.o: CXX_COMPILER__QA_Debug /Users/chenyiting/Documents/GitHub/CppProj/CodeForce_EduRound_128/A.$ Minimuns$ and$ Maximums.cpp || cmake_object_order_depends_target_QA
+  DEP_FILE = CMakeFiles/QA.dir/A._Minimuns_and_Maximums.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/CodeForce_EduRound_128.dir
-  OBJECT_FILE_DIR = CMakeFiles/CodeForce_EduRound_128.dir
-
-build CMakeFiles/CodeForce_EduRound_128.dir/B._Robots.cpp.o: CXX_COMPILER__CodeForce_EduRound_128_Debug /Users/chenyiting/Documents/GitHub/CppProj/CodeForce_EduRound_128/B.$ Robots.cpp || cmake_object_order_depends_target_CodeForce_EduRound_128
-  DEP_FILE = CMakeFiles/CodeForce_EduRound_128.dir/B._Robots.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/CodeForce_EduRound_128.dir
-  OBJECT_FILE_DIR = CMakeFiles/CodeForce_EduRound_128.dir
+  OBJECT_DIR = CMakeFiles/QA.dir
+  OBJECT_FILE_DIR = CMakeFiles/QA.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CodeForce_EduRound_128
+# Link build statements for EXECUTABLE target QA
 
 
 #############################################
-# Link the executable CodeForce_EduRound_128
+# Link the executable QA
 
-build CodeForce_EduRound_128: CXX_EXECUTABLE_LINKER__CodeForce_EduRound_128_Debug CMakeFiles/CodeForce_EduRound_128.dir/A.minimuns_and_maximums.cpp.o CMakeFiles/CodeForce_EduRound_128.dir/B._Robots.cpp.o
+build QA: CXX_EXECUTABLE_LINKER__QA_Debug CMakeFiles/QA.dir/A._Minimuns_and_Maximums.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/CodeForce_EduRound_128.dir
+  OBJECT_DIR = CMakeFiles/QA.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = CodeForce_EduRound_128
-  TARGET_PDB = CodeForce_EduRound_128.dbg
+  TARGET_FILE = QA
+  TARGET_PDB = QA.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target QB
+
+
+#############################################
+# Order-only phony target for QB
+
+build cmake_object_order_depends_target_QB: phony || CMakeFiles/QB.dir
+
+build CMakeFiles/QB.dir/B._Robots.cpp.o: CXX_COMPILER__QB_Debug /Users/chenyiting/Documents/GitHub/CppProj/CodeForce_EduRound_128/B.$ Robots.cpp || cmake_object_order_depends_target_QB
+  DEP_FILE = CMakeFiles/QB.dir/B._Robots.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/QB.dir
+  OBJECT_FILE_DIR = CMakeFiles/QB.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target QB
+
+
+#############################################
+# Link the executable QB
+
+build QB: CXX_EXECUTABLE_LINKER__QB_Debug CMakeFiles/QB.dir/B._Robots.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/QB.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = QB
+  TARGET_PDB = QB.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target QC
+
+
+#############################################
+# Order-only phony target for QC
+
+build cmake_object_order_depends_target_QC: phony || CMakeFiles/QC.dir
+
+build CMakeFiles/QC.dir/C._Binary_String.cpp.o: CXX_COMPILER__QC_Debug /Users/chenyiting/Documents/GitHub/CppProj/CodeForce_EduRound_128/C.$ Binary$ String.cpp || cmake_object_order_depends_target_QC
+  DEP_FILE = CMakeFiles/QC.dir/C._Binary_String.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/QC.dir
+  OBJECT_FILE_DIR = CMakeFiles/QC.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target QC
+
+
+#############################################
+# Link the executable QC
+
+build QC: CXX_EXECUTABLE_LINKER__QC_Debug CMakeFiles/QC.dir/C._Binary_String.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/QC.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = QC
+  TARGET_PDB = QC.dbg
 
 
 #############################################
@@ -111,7 +167,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/chenyiting/Documents/GitHub/CppProj/CodeForce_EduRound_128/cmake-build-debug
 
-build all: phony CodeForce_EduRound_128
+build all: phony QA QB QC
 
 # =============================================================================
 # Built-in targets
