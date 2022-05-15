@@ -55,6 +55,12 @@ build CMakeFiles/Q1.dir/5234._Find_Resultant_Array_After_Removing_Anagrams.cpp.o
   OBJECT_DIR = CMakeFiles/Q1.dir
   OBJECT_FILE_DIR = CMakeFiles/Q1.dir
 
+build CMakeFiles/Q1.dir/6066._Count_Integers_in_Intervals.cpp.o: CXX_COMPILER__Q1_Debug /Users/chenyiting/Documents/GitHub/AlgoTraining/LeetCode_Weekly_293/6066.$ Count$ Integers$ in$ Intervals.cpp || cmake_object_order_depends_target_Q1
+  DEP_FILE = CMakeFiles/Q1.dir/6066._Count_Integers_in_Intervals.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Q1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Q1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Q1
@@ -63,7 +69,7 @@ build CMakeFiles/Q1.dir/5234._Find_Resultant_Array_After_Removing_Anagrams.cpp.o
 #############################################
 # Link the executable Q1
 
-build Q1: CXX_EXECUTABLE_LINKER__Q1_Debug CMakeFiles/Q1.dir/5234._Find_Resultant_Array_After_Removing_Anagrams.cpp.o
+build Q1: CXX_EXECUTABLE_LINKER__Q1_Debug CMakeFiles/Q1.dir/5234._Find_Resultant_Array_After_Removing_Anagrams.cpp.o CMakeFiles/Q1.dir/6066._Count_Integers_in_Intervals.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/Q1.dir
   POST_BUILD = :
@@ -133,6 +139,37 @@ build Q3: CXX_EXECUTABLE_LINKER__Q3_Debug CMakeFiles/Q3.dir/6065._Largest_Combin
   TARGET_FILE = Q3
   TARGET_PDB = Q3.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Q4
+
+
+#############################################
+# Order-only phony target for Q4
+
+build cmake_object_order_depends_target_Q4: phony || CMakeFiles/Q4.dir
+
+build CMakeFiles/Q4.dir/6066._Count_Integers_in_Intervals.cpp.o: CXX_COMPILER__Q4_Debug /Users/chenyiting/Documents/GitHub/AlgoTraining/LeetCode_Weekly_293/6066.$ Count$ Integers$ in$ Intervals.cpp || cmake_object_order_depends_target_Q4
+  DEP_FILE = CMakeFiles/Q4.dir/6066._Count_Integers_in_Intervals.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Q4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Q4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q4
+
+
+#############################################
+# Link the executable Q4
+
+build Q4: CXX_EXECUTABLE_LINKER__Q4_Debug CMakeFiles/Q4.dir/6066._Count_Integers_in_Intervals.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/Q4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Q4
+  TARGET_PDB = Q4.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -167,7 +204,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/chenyiting/Documents/GitHub/AlgoTraining/LeetCode_Weekly_293/cmake-build-debug
 
-build all: phony Q1 Q2 Q3
+build all: phony Q1 Q2 Q3 Q4
 
 # =============================================================================
 # Built-in targets

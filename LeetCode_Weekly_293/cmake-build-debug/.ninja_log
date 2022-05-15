@@ -1,9 +1,7 @@
 # ninja log v5
 0	388	1652585697578851031	CMakeFiles/LeetCode_Weekly_293.dir/main.cpp.o	33a085cbba7d6925
-360	399	1652587160534309252	Q2	1d8baab677433761
-389	429	1652585697621523515	LeetCode_Weekly_293	cf04bc0e360dff3c
-1	359	1652587160492878260	CMakeFiles/Q2.dir/6064._Maximum_Consecutive_Floors_Without_Special_Floors.cpp.o	5c48f6e2d55fbb09
-0	485	1652602627156760883	CMakeFiles/Q3.dir/6065._Largest_Combination_With_Bitwise_AND_Greater_Than_Zero.cpp.o	9ca7cf2cccc340b4
-485	530	1652602627204249090	Q3	7a0a1f252ff1d29b
-0	358	1652602794617519033	CMakeFiles/Q3.dir/6065._Largest_Combination_With_Bitwise_AND_Greater_Than_Zero.cpp.o	9ca7cf2cccc340b4
 358	399	1652602794660160171	Q3	7a0a1f252ff1d29b
+360	399	1652587160534309252	Q2	1d8baab677433761
+1	359	1652587160492878260	CMakeFiles/Q2.dir/6064._Maximum_Consecutive_Floors_Without_Special_Floors.cpp.o	5c48f6e2d55fbb09
+0	358	1652602794617519033	CMakeFiles/Q3.dir/6065._Largest_Combination_With_Bitwise_AND_Greater_Than_Zero.cpp.o	9ca7cf2cccc340b4
+389	429	1652585697621523515	LeetCode_Weekly_293	cf04bc0e360dff3c
