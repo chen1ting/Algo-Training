@@ -32,6 +32,7 @@ int main(){
     string s;
     for(int z = 0; z < loop_times; z++) {
         cin >> s;
-
+        //idea 1: maintain 2 arrays to calculate the cost from left to right and right to left.
+        
     }
 }

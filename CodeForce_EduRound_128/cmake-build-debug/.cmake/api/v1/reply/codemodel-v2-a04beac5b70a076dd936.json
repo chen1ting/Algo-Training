@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CodeForce_EduRound_128",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QA::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QA-Debug-b5cda20ddb5adaec0374.json",
+					"name" : "QA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QB-Debug-0d50b2f26ce5e07758c7.json",
+					"name" : "QB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QC-Debug-6435b52b1a51359dd3b3.json",
+					"name" : "QC",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/chenyiting/Documents/GitHub/CppProj/CodeForce_EduRound_128/cmake-build-debug",
+		"source" : "/Users/chenyiting/Documents/GitHub/CppProj/CodeForce_EduRound_128"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
