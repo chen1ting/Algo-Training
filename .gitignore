@@ -1,5 +1,5 @@
 # Folder view configuration files
-.DS_Store
+.DS_Stores
 Desktop.ini
 
 # Thumbnail cache files
@@ -20,3 +20,6 @@ Thumbs.db
 venv
 node_modules
 .sass-cache
+.DS_Store
+.DS_Store
+.DS_Store
