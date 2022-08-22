@@ -21,5 +21,9 @@ venv
 node_modules
 .sass-cache
 .DS_Store
-.DS_Store
-.DS_Store
+
+4_CZ4045NLP/EditDistance/.vs
+*.ilk
+*.log
+*.obj
+4_CZ4045NLP/EditDistance/EditDistance/x64

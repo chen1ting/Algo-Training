@@ -1,12 +1,12 @@
 ﻿  EditDistance.cpp
-C:\Users\ytchen\Documents\GitHub\AlgoTraining\4_CZ4045NLP\EditDistance\EditDistance\EditDistance.cpp(26,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\ytchen\Documents\GitHub\AlgoTraining\4_CZ4045NLP\EditDistance\EditDistance\EditDistance.cpp(27,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ytchen\Documents\GitHub\AlgoTraining\4_CZ4045NLP\EditDistance\EditDistance\EditDistance.cpp(33,21): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\ytchen\Documents\GitHub\AlgoTraining\4_CZ4045NLP\EditDistance\EditDistance\EditDistance.cpp(28,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ytchen\Documents\GitHub\AlgoTraining\4_CZ4045NLP\EditDistance\EditDistance\EditDistance.cpp(35,21): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
           with
           [
               _Ty=int
           ]
-C:\Users\ytchen\Documents\GitHub\AlgoTraining\4_CZ4045NLP\EditDistance\EditDistance\EditDistance.cpp(36,21): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\ytchen\Documents\GitHub\AlgoTraining\4_CZ4045NLP\EditDistance\EditDistance\EditDistance.cpp(39,21): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
           with
           [
               _Ty=int
