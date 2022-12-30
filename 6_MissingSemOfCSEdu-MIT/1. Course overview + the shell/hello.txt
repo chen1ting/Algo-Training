@@ -1,2 +1,0 @@
-Hello World!
-drwxr-xr-x  13 root root   4096 Oct 26 05:35 var
